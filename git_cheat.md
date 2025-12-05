@@ -28,6 +28,9 @@
 
 - .git\info\exclude
 
+### <g>Clone Repo
+- git remote add origin https://github.com/AnastasiosArvanitis/AnasTrainerOrg.git
+
 ## <o>Branches
 
 ### <g>create a new branch
