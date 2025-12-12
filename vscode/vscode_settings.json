@@ -1,0 +1,199 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "editor.mouseWheelZoom": true,
+    "git.mergeEditor": false,
+    "files.autoSave": "afterDelay",
+    "editor.guides.bracketPairs": "active",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.fontLigatures": false,
+    "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.customLabels.enabled": true,
+    "editor.stickyScroll.enabled": true,
+    "githubPullRequests.queries": [
+      {
+        "label": "Local Pull Request Branches",
+        "query": "default"
+      },
+      {
+        "label": "All Open",
+        "query": "default"
+      }
+    ],
+    "workbench.colorCustomizations": {
+    
+        "activityBar.activeBackground": "#103362",
+        "activityBar.activeBorder": "#d5e77c",
+        "activityBar.background": "#103362",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#c01f64",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#103362",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#7a2499",
+        "statusBarItem.remoteBackground": "#50086b",
+        "statusBar.background": "#1013b1",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#091c36",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#091c3699",
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "editor.background": "#060608",
+        "sideBar.background": "#020f20",
+        "terminal.background": "#020f20",
+        "editor.selectionBackground": "#1384f57c",
+        "editor.selectionHighlightBackground": "#963c0bc4",
+        "editor.findMatchBackground": "#94318fa8",
+        "editor.findMatchHighlightBackground": "#0b553da1",
+        "editorLineNumber.foreground": "#a9def5",
+        "editorLineNumber.activeForeground": "#b75fca",
+        "sideBarTitle.foreground": "#eccf2b",
+        "tab.activeForeground": "#6da2e7",
+		"tab.inactiveForeground": "#a2a1a1"
+    },
+		"github-actions.workflows.pinned.workflows": [
+			"GIT/.github/workflows/pmd_static.yml"
+		],
+		"salesforce.einsteinForDevelopers.enableAutocompletions": true,
+		"salesforce.einsteinForDevelopers.enableAutocompletionsByFileType": {
+			"apex": true,
+			"javascript": true,
+			"css": true,
+			"html": true
+		},
+    "peacock.color": "#091c36",
+    "editor.tokenColorCustomizations": {
+        "comments": "#57665c",
+        "variables": "#9c79e9",
+        "types": "#a6304b",
+        "strings": "#8f8f7a",
+        "functions": "#3b8c48",
+        "keywords": "#e3972b",
+        "numbers": "#dfee0b"
+    },
+    "xml.downloadExternalResources.enabled": true,
+    "gitlens.advanced.messages": {
+        "suppressCreatePullRequestPrompt": true,
+        "suppressNoRepositoryWarning": true
+    },
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "push:command"
+    ],
+    "workbench.iconTheme": "material-icon-theme",
+    "redhat.telemetry.enabled": true,
+    "xml.symbols.maxItemsComputed": 20000,
+    "git.autofetch": true,
+    "githubPullRequests.remotes": [
+        "origin"
+    ],
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "xml.server.vmargs": "-Xmx256M",
+    "githubPullRequests.pullBranch": "never",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "better-comments.tags": [
+        {
+          "tag": "!",
+          "color": "#99656f",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": true
+        },
+        {
+          "tag": "?",
+          "color": "#3498DB",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "//",
+          "color": "#57665c",
+          "strikethrough": true,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "todo",
+          "color": "#FF8C00",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "*",
+          "color": "#98C379",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "tag": "-",
+          "color": "#3654c2",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": true,
+          "italic": false
+        }
+    ],
+    "githubPullRequests.createOnPublishBranch": "never",
+    "salesforcedx-vscode-core.detectConflictsAtSync": true,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "scm.experimental.showHistoryGraph": true,
+    "git.enableSmartCommit": true,
+    "gitlens.views.scm.grouped.views": {
+        "commits": false,
+        "branches": false,
+        "remotes": true,
+        "stashes": true,
+        "tags": true,
+        "worktrees": true,
+        "contributors": true,
+        "repositories": false,
+        "searchAndCompare": true,
+        "launchpad": false
+    },
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.maxComputationTime": 0,
+    "apexPMD.rulesets": [
+        "C:\\work\\mypath\\.pmd\\pmd.xml"
+    ],
+    "codeAnalyzer.enableV5": true,
+    "markdown-preview-enhanced.alwaysShowBacklinksInPreview": false,
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        "C:\\mypath\\postman-folder-pre-request.instructions.md": true
+    },
+    "salesforcedx-vscode-core.experimental.enableSourceTrackingForDeployAndRetrieve": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.secondarySideBar.showLabels": false,
+    "window.zoomLevel": 0.5,
+    "terminal.integrated.mouseWheelZoom": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "gitlens.home.preview.enabled": false
+      
+}
