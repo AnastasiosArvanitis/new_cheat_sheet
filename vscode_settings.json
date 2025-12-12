@@ -4,6 +4,7 @@
     "git.mergeEditor": false,
     "files.autoSave": "afterDelay",
     "editor.guides.bracketPairs": "active",
+    "editor.bracketPairColorization.enabled": true,
     "editor.minimap.enabled": false,
     "editor.fontLigatures": false,
     "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
@@ -12,10 +13,14 @@
     "workbench.editor.customLabels.enabled": true,
     "editor.stickyScroll.enabled": true,
     "githubPullRequests.queries": [
-        {
-            "label": "Local Pull Request Branches",
-            "query": "default"
-        }
+      {
+        "label": "Local Pull Request Branches",
+        "query": "default"
+      },
+      {
+        "label": "All Open",
+        "query": "default"
+      }
     ],
     "workbench.colorCustomizations": {
     
@@ -28,10 +33,10 @@
         "activityBarBadge.foreground": "#e7e7e7",
         "commandCenter.border": "#e7e7e799",
         "sash.hoverBorder": "#103362",
-        "statusBar.background": "#103362",
         "statusBar.foreground": "#e7e7e7",
         "statusBarItem.hoverBackground": "#7a2499",
         "statusBarItem.remoteBackground": "#50086b",
+        "statusBar.background": "#1013b1",
         "statusBarItem.remoteForeground": "#e7e7e7",
         "titleBar.activeBackground": "#091c36",
         "titleBar.activeForeground": "#e7e7e7",
@@ -42,8 +47,6 @@
         "terminal.background": "#020f20",
         "editor.selectionBackground": "#1384f57c",
         "editor.selectionHighlightBackground": "#963c0bc4",
-        "editor.bracketPairColorization.enabled": true,
-        "editor.guides.bracketPairs": "active",
         "editor.findMatchBackground": "#94318fa8",
         "editor.findMatchHighlightBackground": "#0b553da1",
         "editorLineNumber.foreground": "#a9def5",
@@ -185,6 +188,12 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "terminal.integrated.defaultProfile.windows": "Git Bash"
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.secondarySideBar.showLabels": false,
+    "window.zoomLevel": 0.5,
+    "terminal.integrated.mouseWheelZoom": true,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "gitlens.home.preview.enabled": false
       
 }
