@@ -1,9 +1,3 @@
-<style>
-    r { color: #c4454b }
-    o { color: #f27d29 }
-    g { color: #409945 }
-    bl { color: #4378d9 }
-</style>
 
 # <r>Git Cheat Sheet
 
