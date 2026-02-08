@@ -1,0 +1,27 @@
+[
+  {
+    "key": "ctrl+alt+d",
+    "command": "workbench.action.tasks.runTask",
+    "args": "SF: Deploy current file to DEV"
+  },
+  {
+    "key": "ctrl+alt+r",
+    "command": "workbench.action.tasks.runTask",
+    "args": "SF: Retrieve ApexClass Class"
+  },
+  {
+    "key": "ctrl+alt+t",
+    "command": "workbench.action.tasks.runTask",
+    "args": "SF: Run Apex tests for CURRENT file"
+  },
+  {
+    "key": "ctrl+alt+v",
+    "command": "workbench.action.tasks.runTask",
+    "args": "SF: Validate CURRENT file"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "workbench.action.tasks.runTask",
+    "args": "SF: Validate from package.xml"
+  }
+]
